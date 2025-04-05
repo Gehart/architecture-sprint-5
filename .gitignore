@@ -330,3 +330,16 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/node,react,jetbrains+all,visualstudiocode,macos,windows
+
+
+.rasa/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Данные моделей и тренировок
+rasa/models/*
+rasa/results/*
+rasa/nlu_test_results/*
+
+rasa_env/
